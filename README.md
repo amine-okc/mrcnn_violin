@@ -95,9 +95,9 @@ Ces résultats suggèrent que le modèle est très sensible à la détection des
 
 On remarque que la courbe est décroissante, c'est-à-dire qu'à chaque nouvelle itération d'epoch, la perte en données d'entraînement diminue, celà suggère que le modèle apprend au fur et à mesure des images d'entraînement.
 
-![Validation loss train 1](https://github.com/amine-okc/mrcnn_violin/blob/main/plots/val_loss1.png)
 
-//qqch
+La courbe des pertes en données de validation : 
+![Validation loss train 1](https://github.com/amine-okc/mrcnn_violin/blob/main/plots/val_loss1.png)
 
 
 ## Deuxième entraînement
@@ -158,10 +158,10 @@ Cela signifie que, malgré l'amélioration des paramètres d'entraînement (tell
 
 On remarque que la courbe est décroissante, c'est-à-dire qu'à chaque nouvelle itération d'epoch, la perte en données d'entraînement diminue.
 
+La courbe des pertes en données de validation : 
 ![Validation loss train 2](https://github.com/amine-okc/mrcnn_violin/blob/main/plots/val_loss2.png)
 
 
-// qqch
 
 ## Troisième entraînement
 
@@ -229,6 +229,8 @@ Le modèle a montré des progrès, avec un True Negative (TN) détecté, ce qui 
 
 On remarque que la courbe est décroissante, c'est-à-dire qu'à chaque nouvelle itération d'epoch, la perte en données d'entraînement diminue.
 
+
+La courbe des pertes en données de validation : 
 ![Validation loss train 3](https://github.com/amine-okc/mrcnn_violin/blob/main/plots/val_loss3.png)
 
 
