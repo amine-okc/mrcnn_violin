@@ -1,0 +1,611 @@
+ERROR:root:Error processing image {'id': '185.jpg', 'source': 'violin', 'path': './train/185.jpg', 'size': 85212, 'polygons': []}
+Traceback (most recent call last):
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1704, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1218, in load_image_gt
+    image = dataset.load_image(image_id)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/utils.py", line 368, in load_image
+    image = skimage.io.imread(self.image_info[image_id]['path'])
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_io.py", line 48, in imread
+    img = call_plugin('imread', fname, plugin=plugin, **plugin_args)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/manage_plugins.py", line 209, in call_plugin
+    return func(*args, **kwargs)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_plugins/imageio_plugin.py", line 10, in imread
+    return np.asarray(imageio_imread(*args, **kwargs))
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/functions.py", line 159, in imread
+    with imopen(uri, "ri", plugin=format) as file:
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/imopen.py", line 332, in imopen
+    raise err_type(err_msg)
+ValueError: Could not find a backend to open `./train/185.jpg`` with iomode `ri`.
+22/23 [==========================>...] - ETA: 52s - loss: 1.8426 - rpn_class_loss: 0.0042 - rpn_bbox_loss: 0.1970 - mrcnn_class_loss: 0.2019 - mrcnn_bbox_loss: 0.5735 - mrcnn_mask_loss: 0.8660 ERROR:root:Error processing image {'id': '185.jpg', 'source': 'violin', 'path': './train/185.jpg', 'size': 85212, 'polygons': []}
+Traceback (most recent call last):
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1704, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1218, in load_image_gt
+    image = dataset.load_image(image_id)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/utils.py", line 368, in load_image
+    image = skimage.io.imread(self.image_info[image_id]['path'])
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_io.py", line 48, in imread
+    img = call_plugin('imread', fname, plugin=plugin, **plugin_args)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/manage_plugins.py", line 209, in call_plugin
+    return func(*args, **kwargs)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_plugins/imageio_plugin.py", line 10, in imread
+    return np.asarray(imageio_imread(*args, **kwargs))
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/functions.py", line 159, in imread
+    with imopen(uri, "ri", plugin=format) as file:
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/imopen.py", line 332, in imopen
+    raise err_type(err_msg)
+ValueError: Could not find a backend to open `./train/185.jpg`` with iomode `ri`.
+23/23 [============================>.] - ETA: 20s - loss: 1.7989 - rpn_class_loss: 0.0044 - rpn_bbox_loss: 0.1951 - mrcnn_class_loss: 0.1950 - mrcnn_bbox_loss: 0.5613 - mrcnn_mask_loss: 0.8430ERROR:root:Error processing image {'id': '185.jpg', 'source': 'violin', 'path': './train/185.jpg', 'size': 85212, 'polygons': []}
+Traceback (most recent call last):
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1704, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1218, in load_image_gt
+    image = dataset.load_image(image_id)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/utils.py", line 368, in load_image
+    image = skimage.io.imread(self.image_info[image_id]['path'])
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_io.py", line 48, in imread
+    img = call_plugin('imread', fname, plugin=plugin, **plugin_args)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/manage_plugins.py", line 209, in call_plugin
+    return func(*args, **kwargs)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_plugins/imageio_plugin.py", line 10, in imread
+    return np.asarray(imageio_imread(*args, **kwargs))
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/functions.py", line 159, in imread
+    with imopen(uri, "ri", plugin=format) as file:
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/imopen.py", line 332, in imopen
+    raise err_type(err_msg)
+ValueError: Could not find a backend to open `./train/185.jpg`` with iomode `ri`.
+24/23 [==============================] - 908s 38s/step - loss: 1.7555 - rpn_class_loss: 0.0045 - rpn_bbox_loss: 0.1924 - mrcnn_class_loss: 0.1881 - mrcnn_bbox_loss: 0.5483 - mrcnn_mask_loss: 0.8221 - val_loss: 1.1023 - val_rpn_class_loss: 0.0049 - val_rpn_bbox_loss: 0.3056 - val_mrcnn_class_loss: 0.0378 - val_mrcnn_bbox_loss: 0.4328 - val_mrcnn_mask_loss: 0.3211
+Epoch 2/20
+ 6/23 [======>.......................] - ETA: 9:00 - loss: 0.6143 - rpn_class_loss: 0.0069 - rpn_bbox_loss: 0.0825 - mrcnn_class_loss: 0.0401 - mrcnn_bbox_loss: 0.1834 - mrcnn_mask_loss: 0.3014ERROR:root:Error processing image {'id': '185.jpg', 'source': 'violin', 'path': './train/185.jpg', 'size': 85212, 'polygons': []}
+Traceback (most recent call last):
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1704, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1218, in load_image_gt
+    image = dataset.load_image(image_id)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/utils.py", line 368, in load_image
+    image = skimage.io.imread(self.image_info[image_id]['path'])
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_io.py", line 48, in imread
+    img = call_plugin('imread', fname, plugin=plugin, **plugin_args)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/manage_plugins.py", line 209, in call_plugin
+    return func(*args, **kwargs)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_plugins/imageio_plugin.py", line 10, in imread
+    return np.asarray(imageio_imread(*args, **kwargs))
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/functions.py", line 159, in imread
+    with imopen(uri, "ri", plugin=format) as file:
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/imopen.py", line 332, in imopen
+    raise err_type(err_msg)
+ValueError: Could not find a backend to open `./train/185.jpg`` with iomode `ri`.
+11/23 [============>.................] - ETA: 6:22 - loss: 0.5937 - rpn_class_loss: 0.0064 - rpn_bbox_loss: 0.0867 - mrcnn_class_loss: 0.0355 - mrcnn_bbox_loss: 0.1809 - mrcnn_mask_loss: 0.2841ERROR:root:Error processing image {'id': '185.jpg', 'source': 'violin', 'path': './train/185.jpg', 'size': 85212, 'polygons': []}
+Traceback (most recent call last):
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1704, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1218, in load_image_gt
+    image = dataset.load_image(image_id)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/utils.py", line 368, in load_image
+    image = skimage.io.imread(self.image_info[image_id]['path'])
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_io.py", line 48, in imread
+    img = call_plugin('imread', fname, plugin=plugin, **plugin_args)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/manage_plugins.py", line 209, in call_plugin
+    return func(*args, **kwargs)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_plugins/imageio_plugin.py", line 10, in imread
+    return np.asarray(imageio_imread(*args, **kwargs))
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/functions.py", line 159, in imread
+    with imopen(uri, "ri", plugin=format) as file:
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/imopen.py", line 332, in imopen
+    raise err_type(err_msg)
+ValueError: Could not find a backend to open `./train/185.jpg`` with iomode `ri`.
+13/23 [===============>..............] - ETA: 5:22 - loss: 0.5627 - rpn_class_loss: 0.0062 - rpn_bbox_loss: 0.0767 - mrcnn_class_loss: 0.0337 - mrcnn_bbox_loss: 0.1707 - mrcnn_mask_loss: 0.2754ERROR:root:Error processing image {'id': '185.jpg', 'source': 'violin', 'path': './train/185.jpg', 'size': 85212, 'polygons': []}
+Traceback (most recent call last):
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1704, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1218, in load_image_gt
+    image = dataset.load_image(image_id)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/utils.py", line 368, in load_image
+    image = skimage.io.imread(self.image_info[image_id]['path'])
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_io.py", line 48, in imread
+    img = call_plugin('imread', fname, plugin=plugin, **plugin_args)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/manage_plugins.py", line 209, in call_plugin
+    return func(*args, **kwargs)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_plugins/imageio_plugin.py", line 10, in imread
+    return np.asarray(imageio_imread(*args, **kwargs))
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/functions.py", line 159, in imread
+    with imopen(uri, "ri", plugin=format) as file:
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/imopen.py", line 332, in imopen
+    raise err_type(err_msg)
+ValueError: Could not find a backend to open `./train/185.jpg`` with iomode `ri`.
+14/23 [================>.............] - ETA: 4:53 - loss: 0.5833 - rpn_class_loss: 0.0061 - rpn_bbox_loss: 0.0919 - mrcnn_class_loss: 0.0336 - mrcnn_bbox_loss: 0.1792 - mrcnn_mask_loss: 0.2726ERROR:root:Error processing image {'id': '185.jpg', 'source': 'violin', 'path': './train/185.jpg', 'size': 85212, 'polygons': []}
+Traceback (most recent call last):
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1704, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1218, in load_image_gt
+    image = dataset.load_image(image_id)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/utils.py", line 368, in load_image
+    image = skimage.io.imread(self.image_info[image_id]['path'])
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_io.py", line 48, in imread
+    img = call_plugin('imread', fname, plugin=plugin, **plugin_args)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/manage_plugins.py", line 209, in call_plugin
+    return func(*args, **kwargs)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_plugins/imageio_plugin.py", line 10, in imread
+    return np.asarray(imageio_imread(*args, **kwargs))
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/functions.py", line 159, in imread
+    with imopen(uri, "ri", plugin=format) as file:
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/imopen.py", line 332, in imopen
+    raise err_type(err_msg)
+ValueError: Could not find a backend to open `./train/185.jpg`` with iomode `ri`.
+22/23 [==========================>...] - ETA: 49s - loss: 0.5838 - rpn_class_loss: 0.0053 - rpn_bbox_loss: 0.1094 - mrcnn_class_loss: 0.0312 - mrcnn_bbox_loss: 0.1824 - mrcnn_mask_loss: 0.2554 ERROR:root:Error processing image {'id': '185.jpg', 'source': 'violin', 'path': './train/185.jpg', 'size': 85212, 'polygons': []}
+Traceback (most recent call last):
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1704, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1218, in load_image_gt
+    image = dataset.load_image(image_id)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/utils.py", line 368, in load_image
+    image = skimage.io.imread(self.image_info[image_id]['path'])
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_io.py", line 48, in imread
+    img = call_plugin('imread', fname, plugin=plugin, **plugin_args)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/manage_plugins.py", line 209, in call_plugin
+    return func(*args, **kwargs)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_plugins/imageio_plugin.py", line 10, in imread
+    return np.asarray(imageio_imread(*args, **kwargs))
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/functions.py", line 159, in imread
+    with imopen(uri, "ri", plugin=format) as file:
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/imopen.py", line 332, in imopen
+    raise err_type(err_msg)
+ValueError: Could not find a backend to open `./train/185.jpg`` with iomode `ri`.
+24/23 [==============================] - 853s 36s/step - loss: 0.5647 - rpn_class_loss: 0.0051 - rpn_bbox_loss: 0.1054 - mrcnn_class_loss: 0.0309 - mrcnn_bbox_loss: 0.1738 - mrcnn_mask_loss: 0.2496 - val_loss: 2.0501 - val_rpn_class_loss: 0.0186 - val_rpn_bbox_loss: 1.3196 - val_mrcnn_class_loss: 0.0394 - val_mrcnn_bbox_loss: 0.3572 - val_mrcnn_mask_loss: 0.3154
+Epoch 3/20
+ 3/23 [==>...........................] - ETA: 10:57 - loss: 0.2982 - rpn_class_loss: 0.0024 - rpn_bbox_loss: 0.0421 - mrcnn_class_loss: 0.0203 - mrcnn_bbox_loss: 0.0697 - mrcnn_mask_loss: 0.1638ERROR:root:Error processing image {'id': '185.jpg', 'source': 'violin', 'path': './train/185.jpg', 'size': 85212, 'polygons': []}
+Traceback (most recent call last):
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1704, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1218, in load_image_gt
+    image = dataset.load_image(image_id)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/utils.py", line 368, in load_image
+    image = skimage.io.imread(self.image_info[image_id]['path'])
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_io.py", line 48, in imread
+    img = call_plugin('imread', fname, plugin=plugin, **plugin_args)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/manage_plugins.py", line 209, in call_plugin
+    return func(*args, **kwargs)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_plugins/imageio_plugin.py", line 10, in imread
+    return np.asarray(imageio_imread(*args, **kwargs))
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/functions.py", line 159, in imread
+    with imopen(uri, "ri", plugin=format) as file:
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/imopen.py", line 332, in imopen
+    raise err_type(err_msg)
+ValueError: Could not find a backend to open `./train/185.jpg`` with iomode `ri`.
+ 6/23 [======>.......................] - ETA: 9:14 - loss: 0.4460 - rpn_class_loss: 0.0030 - rpn_bbox_loss: 0.1272 - mrcnn_class_loss: 0.0250 - mrcnn_bbox_loss: 0.1199 - mrcnn_mask_loss: 0.1708ERROR:root:Error processing image {'id': '185.jpg', 'source': 'violin', 'path': './train/185.jpg', 'size': 85212, 'polygons': []}
+Traceback (most recent call last):
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1704, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1218, in load_image_gt
+    image = dataset.load_image(image_id)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/utils.py", line 368, in load_image
+    image = skimage.io.imread(self.image_info[image_id]['path'])
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_io.py", line 48, in imread
+    img = call_plugin('imread', fname, plugin=plugin, **plugin_args)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/manage_plugins.py", line 209, in call_plugin
+    return func(*args, **kwargs)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_plugins/imageio_plugin.py", line 10, in imread
+    return np.asarray(imageio_imread(*args, **kwargs))
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/functions.py", line 159, in imread
+    with imopen(uri, "ri", plugin=format) as file:
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/imopen.py", line 332, in imopen
+    raise err_type(err_msg)
+ValueError: Could not find a backend to open `./train/185.jpg`` with iomode `ri`.
+13/23 [===============>..............] - ETA: 5:34 - loss: 0.6135 - rpn_class_loss: 0.0040 - rpn_bbox_loss: 0.2099 - mrcnn_class_loss: 0.0268 - mrcnn_bbox_loss: 0.1706 - mrcnn_mask_loss: 0.2023ERROR:root:Error processing image {'id': '185.jpg', 'source': 'violin', 'path': './train/185.jpg', 'size': 85212, 'polygons': []}
+Traceback (most recent call last):
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1704, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1218, in load_image_gt
+    image = dataset.load_image(image_id)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/utils.py", line 368, in load_image
+    image = skimage.io.imread(self.image_info[image_id]['path'])
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_io.py", line 48, in imread
+    img = call_plugin('imread', fname, plugin=plugin, **plugin_args)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/manage_plugins.py", line 209, in call_plugin
+    return func(*args, **kwargs)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_plugins/imageio_plugin.py", line 10, in imread
+    return np.asarray(imageio_imread(*args, **kwargs))
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/functions.py", line 159, in imread
+    with imopen(uri, "ri", plugin=format) as file:
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/imopen.py", line 332, in imopen
+    raise err_type(err_msg)
+ValueError: Could not find a backend to open `./train/185.jpg`` with iomode `ri`.
+20/23 [========================>.....] - ETA: 1:52 - loss: 0.5622 - rpn_class_loss: 0.0042 - rpn_bbox_loss: 0.1796 - mrcnn_class_loss: 0.0310 - mrcnn_bbox_loss: 0.1467 - mrcnn_mask_loss: 0.2007ERROR:root:Error processing image {'id': '185.jpg', 'source': 'violin', 'path': './train/185.jpg', 'size': 85212, 'polygons': []}
+Traceback (most recent call last):
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1704, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1218, in load_image_gt
+    image = dataset.load_image(image_id)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/utils.py", line 368, in load_image
+    image = skimage.io.imread(self.image_info[image_id]['path'])
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_io.py", line 48, in imread
+    img = call_plugin('imread', fname, plugin=plugin, **plugin_args)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/manage_plugins.py", line 209, in call_plugin
+    return func(*args, **kwargs)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_plugins/imageio_plugin.py", line 10, in imread
+    return np.asarray(imageio_imread(*args, **kwargs))
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/functions.py", line 159, in imread
+    with imopen(uri, "ri", plugin=format) as file:
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/imopen.py", line 332, in imopen
+    raise err_type(err_msg)
+ValueError: Could not find a backend to open `./train/185.jpg`` with iomode `ri`.
+22/23 [==========================>...] - ETA: 50s - loss: 0.5418 - rpn_class_loss: 0.0041 - rpn_bbox_loss: 0.1689 - mrcnn_class_loss: 0.0306 - mrcnn_bbox_loss: 0.1401 - mrcnn_mask_loss: 0.1982 ERROR:root:Error processing image {'id': '185.jpg', 'source': 'violin', 'path': './train/185.jpg', 'size': 85212, 'polygons': []}
+Traceback (most recent call last):
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1704, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1218, in load_image_gt
+    image = dataset.load_image(image_id)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/utils.py", line 368, in load_image
+    image = skimage.io.imread(self.image_info[image_id]['path'])
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_io.py", line 48, in imread
+    img = call_plugin('imread', fname, plugin=plugin, **plugin_args)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/manage_plugins.py", line 209, in call_plugin
+    return func(*args, **kwargs)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_plugins/imageio_plugin.py", line 10, in imread
+    return np.asarray(imageio_imread(*args, **kwargs))
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/functions.py", line 159, in imread
+    with imopen(uri, "ri", plugin=format) as file:
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/imopen.py", line 332, in imopen
+    raise err_type(err_msg)
+ValueError: Could not find a backend to open `./train/185.jpg`` with iomode `ri`.
+24/23 [==============================] - 879s 37s/step - loss: 0.5706 - rpn_class_loss: 0.0041 - rpn_bbox_loss: 0.1702 - mrcnn_class_loss: 0.0334 - mrcnn_bbox_loss: 0.1589 - mrcnn_mask_loss: 0.2041 - val_loss: 2.7660 - val_rpn_class_loss: 0.0142 - val_rpn_bbox_loss: 2.0264 - val_mrcnn_class_loss: 0.0618 - val_mrcnn_bbox_loss: 0.3715 - val_mrcnn_mask_loss: 0.2923
+Epoch 4/20
+24/23 [==============================] - 857s 36s/step - loss: 0.5080 - rpn_class_loss: 0.0032 - rpn_bbox_loss: 0.1132 - mrcnn_class_loss: 0.0489 - mrcnn_bbox_loss: 0.1547 - mrcnn_mask_loss: 0.1880 - val_loss: 1.5442 - val_rpn_class_loss: 0.0073 - val_rpn_bbox_loss: 0.8236 - val_mrcnn_class_loss: 0.0678 - val_mrcnn_bbox_loss: 0.3052 - val_mrcnn_mask_loss: 0.3402
+Epoch 5/20
+24/23 [==============================] - 855s 36s/step - loss: 0.4788 - rpn_class_loss: 0.0025 - rpn_bbox_loss: 0.0944 - mrcnn_class_loss: 0.0551 - mrcnn_bbox_loss: 0.1428 - mrcnn_mask_loss: 0.1840 - val_loss: 2.1411 - val_rpn_class_loss: 0.0256 - val_rpn_bbox_loss: 1.4795 - val_mrcnn_class_loss: 0.0667 - val_mrcnn_bbox_loss: 0.3105 - val_mrcnn_mask_loss: 0.2587
+Epoch 6/20
+24/23 [==============================] - 868s 36s/step - loss: 0.4118 - rpn_class_loss: 0.0026 - rpn_bbox_loss: 0.0812 - mrcnn_class_loss: 0.0527 - mrcnn_bbox_loss: 0.1282 - mrcnn_mask_loss: 0.1470 - val_loss: 2.2958 - val_rpn_class_loss: 0.0235 - val_rpn_bbox_loss: 1.6942 - val_mrcnn_class_loss: 0.0697 - val_mrcnn_bbox_loss: 0.2778 - val_mrcnn_mask_loss: 0.2308
+Epoch 7/20
+ 6/23 [======>.......................] - ETA: 9:06 - loss: 0.4820 - rpn_class_loss: 0.0040 - rpn_bbox_loss: 0.1013 - mrcnn_class_loss: 0.0639 - mrcnn_bbox_loss: 0.1492 - mrcnn_mask_loss: 0.1635ERROR:root:Error processing image {'id': '189.jpg', 'source': 'violin', 'path': './train/189.jpg', 'size': 181944, 'polygons': []}
+Traceback (most recent call last):
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1704, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1218, in load_image_gt
+    image = dataset.load_image(image_id)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/utils.py", line 368, in load_image
+    image = skimage.io.imread(self.image_info[image_id]['path'])
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_io.py", line 48, in imread
+    img = call_plugin('imread', fname, plugin=plugin, **plugin_args)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/manage_plugins.py", line 209, in call_plugin
+    return func(*args, **kwargs)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_plugins/imageio_plugin.py", line 10, in imread
+    return np.asarray(imageio_imread(*args, **kwargs))
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/functions.py", line 159, in imread
+    with imopen(uri, "ri", plugin=format) as file:
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/imopen.py", line 332, in imopen
+    raise err_type(err_msg)
+ValueError: Could not find a backend to open `./train/189.jpg`` with iomode `ri`.
+ 8/23 [=========>....................] - ETA: 7:53 - loss: 0.4701 - rpn_class_loss: 0.0039 - rpn_bbox_loss: 0.0950 - mrcnn_class_loss: 0.0658 - mrcnn_bbox_loss: 0.1431 - mrcnn_mask_loss: 0.1622ERROR:root:Error processing image {'id': '189.jpg', 'source': 'violin', 'path': './train/189.jpg', 'size': 181944, 'polygons': []}
+Traceback (most recent call last):
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1704, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1218, in load_image_gt
+    image = dataset.load_image(image_id)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/utils.py", line 368, in load_image
+    image = skimage.io.imread(self.image_info[image_id]['path'])
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_io.py", line 48, in imread
+    img = call_plugin('imread', fname, plugin=plugin, **plugin_args)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/manage_plugins.py", line 209, in call_plugin
+    return func(*args, **kwargs)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_plugins/imageio_plugin.py", line 10, in imread
+    return np.asarray(imageio_imread(*args, **kwargs))
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/functions.py", line 159, in imread
+    with imopen(uri, "ri", plugin=format) as file:
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/imopen.py", line 332, in imopen
+    raise err_type(err_msg)
+ValueError: Could not find a backend to open `./train/189.jpg`` with iomode `ri`.
+ 9/23 [==========>...................] - ETA: 7:25 - loss: 0.4458 - rpn_class_loss: 0.0037 - rpn_bbox_loss: 0.0883 - mrcnn_class_loss: 0.0628 - mrcnn_bbox_loss: 0.1332 - mrcnn_mask_loss: 0.1576ERROR:root:Error processing image {'id': '189.jpg', 'source': 'violin', 'path': './train/189.jpg', 'size': 181944, 'polygons': []}
+Traceback (most recent call last):
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1704, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1218, in load_image_gt
+    image = dataset.load_image(image_id)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/utils.py", line 368, in load_image
+    image = skimage.io.imread(self.image_info[image_id]['path'])
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_io.py", line 48, in imread
+    img = call_plugin('imread', fname, plugin=plugin, **plugin_args)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/manage_plugins.py", line 209, in call_plugin
+    return func(*args, **kwargs)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_plugins/imageio_plugin.py", line 10, in imread
+    return np.asarray(imageio_imread(*args, **kwargs))
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/functions.py", line 159, in imread
+    with imopen(uri, "ri", plugin=format) as file:
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/imopen.py", line 332, in imopen
+    raise err_type(err_msg)
+ValueError: Could not find a backend to open `./train/189.jpg`` with iomode `ri`.
+11/23 [============>.................] - ETA: 6:27 - loss: 0.4155 - rpn_class_loss: 0.0034 - rpn_bbox_loss: 0.0783 - mrcnn_class_loss: 0.0585 - mrcnn_bbox_loss: 0.1231 - mrcnn_mask_loss: 0.1522ERROR:root:Error processing image {'id': '189.jpg', 'source': 'violin', 'path': './train/189.jpg', 'size': 181944, 'polygons': []}
+Traceback (most recent call last):
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1704, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1218, in load_image_gt
+    image = dataset.load_image(image_id)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/utils.py", line 368, in load_image
+    image = skimage.io.imread(self.image_info[image_id]['path'])
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_io.py", line 48, in imread
+    img = call_plugin('imread', fname, plugin=plugin, **plugin_args)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/manage_plugins.py", line 209, in call_plugin
+    return func(*args, **kwargs)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_plugins/imageio_plugin.py", line 10, in imread
+    return np.asarray(imageio_imread(*args, **kwargs))
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/functions.py", line 159, in imread
+    with imopen(uri, "ri", plugin=format) as file:
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/imopen.py", line 332, in imopen
+    raise err_type(err_msg)
+ValueError: Could not find a backend to open `./train/189.jpg`` with iomode `ri`.
+13/23 [===============>..............] - ETA: 5:18 - loss: 0.3899 - rpn_class_loss: 0.0032 - rpn_bbox_loss: 0.0713 - mrcnn_class_loss: 0.0560 - mrcnn_bbox_loss: 0.1120 - mrcnn_mask_loss: 0.1473ERROR:root:Error processing image {'id': '189.jpg', 'source': 'violin', 'path': './train/189.jpg', 'size': 181944, 'polygons': []}
+Traceback (most recent call last):
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1704, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1218, in load_image_gt
+    image = dataset.load_image(image_id)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/utils.py", line 368, in load_image
+    image = skimage.io.imread(self.image_info[image_id]['path'])
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_io.py", line 48, in imread
+    img = call_plugin('imread', fname, plugin=plugin, **plugin_args)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/manage_plugins.py", line 209, in call_plugin
+    return func(*args, **kwargs)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_plugins/imageio_plugin.py", line 10, in imread
+    return np.asarray(imageio_imread(*args, **kwargs))
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/functions.py", line 159, in imread
+    with imopen(uri, "ri", plugin=format) as file:
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/imopen.py", line 332, in imopen
+    raise err_type(err_msg)
+ValueError: Could not find a backend to open `./train/189.jpg`` with iomode `ri`.
+21/23 [=========================>....] - ETA: 1:16 - loss: 0.4030 - rpn_class_loss: 0.0030 - rpn_bbox_loss: 0.0826 - mrcnn_class_loss: 0.0492 - mrcnn_bbox_loss: 0.1210 - mrcnn_mask_loss: 0.1473ERROR:root:Error processing image {'id': '189.jpg', 'source': 'violin', 'path': './train/189.jpg', 'size': 181944, 'polygons': []}
+Traceback (most recent call last):
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1704, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1218, in load_image_gt
+    image = dataset.load_image(image_id)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/utils.py", line 368, in load_image
+    image = skimage.io.imread(self.image_info[image_id]['path'])
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_io.py", line 48, in imread
+    img = call_plugin('imread', fname, plugin=plugin, **plugin_args)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/manage_plugins.py", line 209, in call_plugin
+    return func(*args, **kwargs)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_plugins/imageio_plugin.py", line 10, in imread
+    return np.asarray(imageio_imread(*args, **kwargs))
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/functions.py", line 159, in imread
+    with imopen(uri, "ri", plugin=format) as file:
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/imopen.py", line 332, in imopen
+    raise err_type(err_msg)
+ValueError: Could not find a backend to open `./train/189.jpg`` with iomode `ri`.
+22/23 [==========================>...] - ETA: 47s - loss: 0.3975 - rpn_class_loss: 0.0029 - rpn_bbox_loss: 0.0806 - mrcnn_class_loss: 0.0485 - mrcnn_bbox_loss: 0.1197 - mrcnn_mask_loss: 0.1458 ERROR:root:Error processing image {'id': '189.jpg', 'source': 'violin', 'path': './train/189.jpg', 'size': 181944, 'polygons': []}
+Traceback (most recent call last):
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1704, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1218, in load_image_gt
+    image = dataset.load_image(image_id)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/utils.py", line 368, in load_image
+    image = skimage.io.imread(self.image_info[image_id]['path'])
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_io.py", line 48, in imread
+    img = call_plugin('imread', fname, plugin=plugin, **plugin_args)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/manage_plugins.py", line 209, in call_plugin
+    return func(*args, **kwargs)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_plugins/imageio_plugin.py", line 10, in imread
+    return np.asarray(imageio_imread(*args, **kwargs))
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/functions.py", line 159, in imread
+    with imopen(uri, "ri", plugin=format) as file:
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/imopen.py", line 332, in imopen
+    raise err_type(err_msg)
+ValueError: Could not find a backend to open `./train/189.jpg`` with iomode `ri`.
+23/23 [============================>.] - ETA: 18s - loss: 0.3980 - rpn_class_loss: 0.0028 - rpn_bbox_loss: 0.0820 - mrcnn_class_loss: 0.0481 - mrcnn_bbox_loss: 0.1203 - mrcnn_mask_loss: 0.1448ERROR:root:Error processing image {'id': '189.jpg', 'source': 'violin', 'path': './train/189.jpg', 'size': 181944, 'polygons': []}
+Traceback (most recent call last):
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1704, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1218, in load_image_gt
+    image = dataset.load_image(image_id)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/utils.py", line 368, in load_image
+    image = skimage.io.imread(self.image_info[image_id]['path'])
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_io.py", line 48, in imread
+    img = call_plugin('imread', fname, plugin=plugin, **plugin_args)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/manage_plugins.py", line 209, in call_plugin
+    return func(*args, **kwargs)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_plugins/imageio_plugin.py", line 10, in imread
+    return np.asarray(imageio_imread(*args, **kwargs))
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/functions.py", line 159, in imread
+    with imopen(uri, "ri", plugin=format) as file:
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/imopen.py", line 332, in imopen
+    raise err_type(err_msg)
+ValueError: Could not find a backend to open `./train/189.jpg`` with iomode `ri`.
+24/23 [==============================] - 841s 35s/step - loss: 0.4011 - rpn_class_loss: 0.0029 - rpn_bbox_loss: 0.0820 - mrcnn_class_loss: 0.0484 - mrcnn_bbox_loss: 0.1214 - mrcnn_mask_loss: 0.1464 - val_loss: 1.7987 - val_rpn_class_loss: 0.0148 - val_rpn_bbox_loss: 1.1419 - val_mrcnn_class_loss: 0.0873 - val_mrcnn_bbox_loss: 0.2703 - val_mrcnn_mask_loss: 0.2844
+Epoch 8/20
+ 6/23 [======>.......................] - ETA: 8:22 - loss: 0.2855 - rpn_class_loss: 0.0018 - rpn_bbox_loss: 0.0482 - mrcnn_class_loss: 0.0326 - mrcnn_bbox_loss: 0.0800 - mrcnn_mask_loss: 0.1230ERROR:root:Error processing image {'id': '189.jpg', 'source': 'violin', 'path': './train/189.jpg', 'size': 181944, 'polygons': []}
+Traceback (most recent call last):
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1704, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1218, in load_image_gt
+    image = dataset.load_image(image_id)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/utils.py", line 368, in load_image
+    image = skimage.io.imread(self.image_info[image_id]['path'])
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_io.py", line 48, in imread
+    img = call_plugin('imread', fname, plugin=plugin, **plugin_args)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/manage_plugins.py", line 209, in call_plugin
+    return func(*args, **kwargs)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_plugins/imageio_plugin.py", line 10, in imread
+    return np.asarray(imageio_imread(*args, **kwargs))
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/functions.py", line 159, in imread
+    with imopen(uri, "ri", plugin=format) as file:
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/imopen.py", line 332, in imopen
+    raise err_type(err_msg)
+ValueError: Could not find a backend to open `./train/189.jpg`` with iomode `ri`.
+11/23 [============>.................] - ETA: 6:10 - loss: 0.3086 - rpn_class_loss: 0.0018 - rpn_bbox_loss: 0.0541 - mrcnn_class_loss: 0.0355 - mrcnn_bbox_loss: 0.0884 - mrcnn_mask_loss: 0.1288ERROR:root:Error processing image {'id': '189.jpg', 'source': 'violin', 'path': './train/189.jpg', 'size': 181944, 'polygons': []}
+Traceback (most recent call last):
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1704, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1218, in load_image_gt
+    image = dataset.load_image(image_id)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/utils.py", line 368, in load_image
+    image = skimage.io.imread(self.image_info[image_id]['path'])
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_io.py", line 48, in imread
+    img = call_plugin('imread', fname, plugin=plugin, **plugin_args)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/manage_plugins.py", line 209, in call_plugin
+    return func(*args, **kwargs)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_plugins/imageio_plugin.py", line 10, in imread
+    return np.asarray(imageio_imread(*args, **kwargs))
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/functions.py", line 159, in imread
+    with imopen(uri, "ri", plugin=format) as file:
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/imopen.py", line 332, in imopen
+    raise err_type(err_msg)
+ValueError: Could not find a backend to open `./train/189.jpg`` with iomode `ri`.
+13/23 [===============>..............] - ETA: 5:12 - loss: 0.3224 - rpn_class_loss: 0.0017 - rpn_bbox_loss: 0.0549 - mrcnn_class_loss: 0.0350 - mrcnn_bbox_loss: 0.0986 - mrcnn_mask_loss: 0.1321ERROR:root:Error processing image {'id': '189.jpg', 'source': 'violin', 'path': './train/189.jpg', 'size': 181944, 'polygons': []}
+Traceback (most recent call last):
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1704, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1218, in load_image_gt
+    image = dataset.load_image(image_id)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/utils.py", line 368, in load_image
+    image = skimage.io.imread(self.image_info[image_id]['path'])
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_io.py", line 48, in imread
+    img = call_plugin('imread', fname, plugin=plugin, **plugin_args)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/manage_plugins.py", line 209, in call_plugin
+    return func(*args, **kwargs)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_plugins/imageio_plugin.py", line 10, in imread
+    return np.asarray(imageio_imread(*args, **kwargs))
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/functions.py", line 159, in imread
+    with imopen(uri, "ri", plugin=format) as file:
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/imopen.py", line 332, in imopen
+    raise err_type(err_msg)
+ValueError: Could not find a backend to open `./train/189.jpg`` with iomode `ri`.
+14/23 [================>.............] - ETA: 4:44 - loss: 0.3327 - rpn_class_loss: 0.0017 - rpn_bbox_loss: 0.0564 - mrcnn_class_loss: 0.0356 - mrcnn_bbox_loss: 0.1032 - mrcnn_mask_loss: 0.1358ERROR:root:Error processing image {'id': '189.jpg', 'source': 'violin', 'path': './train/189.jpg', 'size': 181944, 'polygons': []}
+Traceback (most recent call last):
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1704, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1218, in load_image_gt
+    image = dataset.load_image(image_id)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/utils.py", line 368, in load_image
+    image = skimage.io.imread(self.image_info[image_id]['path'])
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_io.py", line 48, in imread
+    img = call_plugin('imread', fname, plugin=plugin, **plugin_args)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/manage_plugins.py", line 209, in call_plugin
+    return func(*args, **kwargs)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_plugins/imageio_plugin.py", line 10, in imread
+    return np.asarray(imageio_imread(*args, **kwargs))
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/functions.py", line 159, in imread
+    with imopen(uri, "ri", plugin=format) as file:
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/imopen.py", line 332, in imopen
+    raise err_type(err_msg)
+ValueError: Could not find a backend to open `./train/189.jpg`` with iomode `ri`.
+22/23 [==========================>...] - ETA: 48s - loss: 0.3311 - rpn_class_loss: 0.0017 - rpn_bbox_loss: 0.0527 - mrcnn_class_loss: 0.0355 - mrcnn_bbox_loss: 0.1028 - mrcnn_mask_loss: 0.1385 ERROR:root:Error processing image {'id': '189.jpg', 'source': 'violin', 'path': './train/189.jpg', 'size': 181944, 'polygons': []}
+Traceback (most recent call last):
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1704, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1218, in load_image_gt
+    image = dataset.load_image(image_id)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/utils.py", line 368, in load_image
+    image = skimage.io.imread(self.image_info[image_id]['path'])
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_io.py", line 48, in imread
+    img = call_plugin('imread', fname, plugin=plugin, **plugin_args)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/manage_plugins.py", line 209, in call_plugin
+    return func(*args, **kwargs)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_plugins/imageio_plugin.py", line 10, in imread
+    return np.asarray(imageio_imread(*args, **kwargs))
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/functions.py", line 159, in imread
+    with imopen(uri, "ri", plugin=format) as file:
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/imopen.py", line 332, in imopen
+    raise err_type(err_msg)
+ValueError: Could not find a backend to open `./train/189.jpg`` with iomode `ri`.
+24/23 [==============================] - 854s 36s/step - loss: 0.3288 - rpn_class_loss: 0.0017 - rpn_bbox_loss: 0.0518 - mrcnn_class_loss: 0.0361 - mrcnn_bbox_loss: 0.1012 - mrcnn_mask_loss: 0.1381 - val_loss: 2.4207 - val_rpn_class_loss: 0.0250 - val_rpn_bbox_loss: 1.7799 - val_mrcnn_class_loss: 0.0747 - val_mrcnn_bbox_loss: 0.2716 - val_mrcnn_mask_loss: 0.2695
+Epoch 9/20
+ 3/23 [==>...........................] - ETA: 8:14 - loss: 0.2446 - rpn_class_loss: 9.9031e-04 - rpn_bbox_loss: 0.0368 - mrcnn_class_loss: 0.0250 - mrcnn_bbox_loss: 0.0730 - mrcnn_mask_loss: 0.1088ERROR:root:Error processing image {'id': '189.jpg', 'source': 'violin', 'path': './train/189.jpg', 'size': 181944, 'polygons': []}
+Traceback (most recent call last):
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1704, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1218, in load_image_gt
+    image = dataset.load_image(image_id)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/utils.py", line 368, in load_image
+    image = skimage.io.imread(self.image_info[image_id]['path'])
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_io.py", line 48, in imread
+    img = call_plugin('imread', fname, plugin=plugin, **plugin_args)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/manage_plugins.py", line 209, in call_plugin
+    return func(*args, **kwargs)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_plugins/imageio_plugin.py", line 10, in imread
+    return np.asarray(imageio_imread(*args, **kwargs))
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/functions.py", line 159, in imread
+    with imopen(uri, "ri", plugin=format) as file:
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/imopen.py", line 332, in imopen
+    raise err_type(err_msg)
+ValueError: Could not find a backend to open `./train/189.jpg`` with iomode `ri`.
+ 6/23 [======>.......................] - ETA: 8:02 - loss: 0.3622 - rpn_class_loss: 0.0011 - rpn_bbox_loss: 0.0660 - mrcnn_class_loss: 0.0325 - mrcnn_bbox_loss: 0.1066 - mrcnn_mask_loss: 0.1559  ERROR:root:Error processing image {'id': '189.jpg', 'source': 'violin', 'path': './train/189.jpg', 'size': 181944, 'polygons': []}
+Traceback (most recent call last):
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1704, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1218, in load_image_gt
+    image = dataset.load_image(image_id)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/utils.py", line 368, in load_image
+    image = skimage.io.imread(self.image_info[image_id]['path'])
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_io.py", line 48, in imread
+    img = call_plugin('imread', fname, plugin=plugin, **plugin_args)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/manage_plugins.py", line 209, in call_plugin
+    return func(*args, **kwargs)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_plugins/imageio_plugin.py", line 10, in imread
+    return np.asarray(imageio_imread(*args, **kwargs))
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/functions.py", line 159, in imread
+    with imopen(uri, "ri", plugin=format) as file:
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/imopen.py", line 332, in imopen
+    raise err_type(err_msg)
+ValueError: Could not find a backend to open `./train/189.jpg`` with iomode `ri`.
+13/23 [===============>..............] - ETA: 5:01 - loss: 0.4325 - rpn_class_loss: 0.0011 - rpn_bbox_loss: 0.0823 - mrcnn_class_loss: 0.0367 - mrcnn_bbox_loss: 0.1278 - mrcnn_mask_loss: 0.1845ERROR:root:Error processing image {'id': '189.jpg', 'source': 'violin', 'path': './train/189.jpg', 'size': 181944, 'polygons': []}
+Traceback (most recent call last):
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1704, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1218, in load_image_gt
+    image = dataset.load_image(image_id)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/utils.py", line 368, in load_image
+    image = skimage.io.imread(self.image_info[image_id]['path'])
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_io.py", line 48, in imread
+    img = call_plugin('imread', fname, plugin=plugin, **plugin_args)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/manage_plugins.py", line 209, in call_plugin
+    return func(*args, **kwargs)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_plugins/imageio_plugin.py", line 10, in imread
+    return np.asarray(imageio_imread(*args, **kwargs))
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/functions.py", line 159, in imread
+    with imopen(uri, "ri", plugin=format) as file:
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/imopen.py", line 332, in imopen
+    raise err_type(err_msg)
+ValueError: Could not find a backend to open `./train/189.jpg`` with iomode `ri`.
+20/23 [========================>.....] - ETA: 1:45 - loss: 0.3841 - rpn_class_loss: 0.0012 - rpn_bbox_loss: 0.0647 - mrcnn_class_loss: 0.0402 - mrcnn_bbox_loss: 0.1077 - mrcnn_mask_loss: 0.1702ERROR:root:Error processing image {'id': '189.jpg', 'source': 'violin', 'path': './train/189.jpg', 'size': 181944, 'polygons': []}
+Traceback (most recent call last):
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1704, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/model.py", line 1218, in load_image_gt
+    image = dataset.load_image(image_id)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/mrcnn/utils.py", line 368, in load_image
+    image = skimage.io.imread(self.image_info[image_id]['path'])
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_io.py", line 48, in imread
+    img = call_plugin('imread', fname, plugin=plugin, **plugin_args)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/manage_plugins.py", line 209, in call_plugin
+    return func(*args, **kwargs)
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/skimage/io/_plugins/imageio_plugin.py", line 10, in imread
+    return np.asarray(imageio_imread(*args, **kwargs))
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/functions.py", line 159, in imread
+    with imopen(uri, "ri", plugin=format) as file:
+  File "/home/tani/anaconda3/envs/mrcnn/lib/python3.6/site-packages/imageio/core/imopen.py", line 332, in imopen
+    raise err_type(err_msg)
+ValueError: Could not find a backend to open `./train/189.jpg`` with iomode `ri`.
+24/23 [==============================] - 841s 35s/step - loss: 0.3976 - rpn_class_loss: 0.0012 - rpn_bbox_loss: 0.0722 - mrcnn_class_loss: 0.0402 - mrcnn_bbox_loss: 0.1133 - mrcnn_mask_loss: 0.1707 - val_loss: 1.6258 - val_rpn_class_loss: 0.0099 - val_rpn_bbox_loss: 0.9903 - val_mrcnn_class_loss: 0.0907 - val_mrcnn_bbox_loss: 0.2856 - val_mrcnn_mask_loss: 0.2493
+Epoch 10/20
+24/23 [==============================] - 862s 36s/step - loss: 0.3551 - rpn_class_loss: 0.0012 - rpn_bbox_loss: 0.0641 - mrcnn_class_loss: 0.0457 - mrcnn_bbox_loss: 0.1056 - mrcnn_mask_loss: 0.1384 - val_loss: 1.2134 - val_rpn_class_loss: 0.0092 - val_rpn_bbox_loss: 0.6792 - val_mrcnn_class_loss: 0.0649 - val_mrcnn_bbox_loss: 0.2646 - val_mrcnn_mask_loss: 0.1956
+Epoch 11/20
+24/23 [==============================] - 843s 35s/step - loss: 0.3161 - rpn_class_loss: 8.4270e-04 - rpn_bbox_loss: 0.0516 - mrcnn_class_loss: 0.0454 - mrcnn_bbox_loss: 0.0823 - mrcnn_mask_loss: 0.1360 - val_loss: 3.2125 - val_rpn_class_loss: 0.0338 - val_rpn_bbox_loss: 2.6524 - val_mrcnn_class_loss: 0.0678 - val_mrcnn_bbox_loss: 0.2456 - val_mrcnn_mask_loss: 0.2129
+Epoch 12/20
+24/23 [==============================] - 859s 36s/step - loss: 0.5274 - rpn_class_loss: 0.0029 - rpn_bbox_loss: 0.2266 - mrcnn_class_loss: 0.0525 - mrcnn_bbox_loss: 0.1022 - mrcnn_mask_loss: 0.1430 - val_loss: 1.0970 - val_rpn_class_loss: 0.0056 - val_rpn_bbox_loss: 0.4823 - val_mrcnn_class_loss: 0.0830 - val_mrcnn_bbox_loss: 0.3053 - val_mrcnn_mask_loss: 0.2209
+Epoch 13/20
+24/23 [==============================] - 862s 36s/step - loss: 0.3196 - rpn_class_loss: 0.0020 - rpn_bbox_loss: 0.0454 - mrcnn_class_loss: 0.0501 - mrcnn_bbox_loss: 0.0830 - mrcnn_mask_loss: 0.1391 - val_loss: 0.9353 - val_rpn_class_loss: 0.0055 - val_rpn_bbox_loss: 0.3934 - val_mrcnn_class_loss: 0.0758 - val_mrcnn_bbox_loss: 0.2214 - val_mrcnn_mask_loss: 0.2391
+Epoch 14/20
+24/23 [==============================] - 855s 36s/step - loss: 0.4165 - rpn_class_loss: 0.0026 - rpn_bbox_loss: 0.1024 - mrcnn_class_loss: 0.0513 - mrcnn_bbox_loss: 0.1003 - mrcnn_mask_loss: 0.1599 - val_loss: 2.2079 - val_rpn_class_loss: 0.0265 - val_rpn_bbox_loss: 1.5928 - val_mrcnn_class_loss: 0.0814 - val_mrcnn_bbox_loss: 0.2530 - val_mrcnn_mask_loss: 0.2541
+Epoch 15/20
+24/23 [==============================] - 864s 36s/step - loss: 0.3829 - rpn_class_loss: 0.0036 - rpn_bbox_loss: 0.0658 - mrcnn_class_loss: 0.0418 - mrcnn_bbox_loss: 0.0962 - mrcnn_mask_loss: 0.1756 - val_loss: 1.6560 - val_rpn_class_loss: 0.0114 - val_rpn_bbox_loss: 1.1235 - val_mrcnn_class_loss: 0.0715 - val_mrcnn_bbox_loss: 0.2372 - val_mrcnn_mask_loss: 0.2124
+Epoch 16/20
+24/23 [==============================] - 855s 36s/step - loss: 0.3029 - rpn_class_loss: 0.0030 - rpn_bbox_loss: 0.0444 - mrcnn_class_loss: 0.0462 - mrcnn_bbox_loss: 0.0659 - mrcnn_mask_loss: 0.1435 - val_loss: 1.1705 - val_rpn_class_loss: 0.0080 - val_rpn_bbox_loss: 0.6112 - val_mrcnn_class_loss: 0.0834 - val_mrcnn_bbox_loss: 0.2338 - val_mrcnn_mask_loss: 0.2342
+Epoch 17/20
+24/23 [==============================] - 874s 36s/step - loss: 0.2545 - rpn_class_loss: 0.0028 - rpn_bbox_loss: 0.0299 - mrcnn_class_loss: 0.0429 - mrcnn_bbox_loss: 0.0501 - mrcnn_mask_loss: 0.1289 - val_loss: 2.4840 - val_rpn_class_loss: 0.0348 - val_rpn_bbox_loss: 1.8885 - val_mrcnn_class_loss: 0.0946 - val_mrcnn_bbox_loss: 0.2226 - val_mrcnn_mask_loss: 0.2434
+Epoch 18/20
+24/23 [==============================] - 852s 36s/step - loss: 0.2638 - rpn_class_loss: 0.0017 - rpn_bbox_loss: 0.0340 - mrcnn_class_loss: 0.0366 - mrcnn_bbox_loss: 0.0559 - mrcnn_mask_loss: 0.1356 - val_loss: 2.6450 - val_rpn_class_loss: 0.0377 - val_rpn_bbox_loss: 2.0800 - val_mrcnn_class_loss: 0.0660 - val_mrcnn_bbox_loss: 0.2071 - val_mrcnn_mask_loss: 0.2543
+Epoch 19/20
+24/23 [==============================] - 858s 36s/step - loss: 0.2675 - rpn_class_loss: 0.0021 - rpn_bbox_loss: 0.0380 - mrcnn_class_loss: 0.0346 - mrcnn_bbox_loss: 0.0619 - mrcnn_mask_loss: 0.1309 - val_loss: 1.6403 - val_rpn_class_loss: 0.0179 - val_rpn_bbox_loss: 1.1351 - val_mrcnn_class_loss: 0.0637 - val_mrcnn_bbox_loss: 0.1799 - val_mrcnn_mask_loss: 0.2438
+Epoch 20/20
+24/23 [==============================] - 880s 37s/step - loss: 0.2147 - rpn_class_loss: 0.0017 - rpn_bbox_loss: 0.0316 - mrcnn_class_loss: 0.0292 - mrcnn_bbox_loss: 0.0470 - mrcnn_mask_loss: 0.1051 - val_loss: 1.4293 - val_rpn_class_loss: 0.0076 - val_rpn_bbox_loss: 0.8581 - val_mrcnn_class_loss: 0.0739 - val_mrcnn_bbox_loss: 0.1854 - val_mrcnn_mask_loss: 0.3043
+
+
