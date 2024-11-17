@@ -99,6 +99,10 @@ On remarque que la courbe est décroissante, c'est-à-dire qu'à chaque nouvelle
 La courbe des pertes en données de validation : 
 ![Validation loss train 1](https://github.com/amine-okc/mrcnn_violin/blob/main/plots/val_loss1.png)
 
+### Test de détection
+![test1](https://github.com/amine-okc/mrcnn_violin/blob/main/detection_tests/false_neg_train1.png)
+![test2](https://github.com/amine-okc/mrcnn_violin/blob/main/detection_tests/false_pos_train1.png)
+![test3](https://github.com/amine-okc/mrcnn_violin/blob/main/detection_tests/true_pos_train1.png)
 
 ## Deuxième entraînement
 
