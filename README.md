@@ -100,9 +100,9 @@ La courbe des pertes en données de validation :
 ![Validation loss train 1](https://github.com/amine-okc/mrcnn_violin/blob/main/plots/val_loss1.png)
 
 ### Test de détection
-![test1](https://github.com/amine-okc/mrcnn_violin/blob/main/detection_tests/false_neg_train1.png)
-![test2](https://github.com/amine-okc/mrcnn_violin/blob/main/detection_tests/false_pos_train1.png)
-![test3](https://github.com/amine-okc/mrcnn_violin/blob/main/detection_tests/true_pos_train1.png)
+![test1](https://github.com/amine-okc/mrcnn_violin/blob/main/detection_tests/pic1_train1.png)
+![test2](https://github.com/amine-okc/mrcnn_violin/blob/main/detection_tests/pic2_train1.png)
+![test3](https://github.com/amine-okc/mrcnn_violin/blob/main/detection_tests/pic3_train1.png)
 
 ## Deuxième entraînement
 
@@ -165,6 +165,10 @@ On remarque que la courbe est décroissante, c'est-à-dire qu'à chaque nouvelle
 La courbe des pertes en données de validation : 
 ![Validation loss train 2](https://github.com/amine-okc/mrcnn_violin/blob/main/plots/val_loss2.png)
 
+### Test de détection
+![test1](https://github.com/amine-okc/mrcnn_violin/blob/main/detection_tests/pic1_train2.png)
+![test2](https://github.com/amine-okc/mrcnn_violin/blob/main/detection_tests/pic2_train2.png)
+![test3](https://github.com/amine-okc/mrcnn_violin/blob/main/detection_tests/pic3_train2.png)
 
 
 ## Troisième entraînement
@@ -236,6 +240,11 @@ On remarque que la courbe est décroissante, c'est-à-dire qu'à chaque nouvelle
 
 La courbe des pertes en données de validation : 
 ![Validation loss train 3](https://github.com/amine-okc/mrcnn_violin/blob/main/plots/val_loss3.png)
+
+### Test de détection
+![test1](https://github.com/amine-okc/mrcnn_violin/blob/main/detection_tests/pic1_train3.png)
+![test2](https://github.com/amine-okc/mrcnn_violin/blob/main/detection_tests/pic2_train3.png)
+![test3](https://github.com/amine-okc/mrcnn_violin/blob/main/detection_tests/pic3_train3.png)
 
 
 ## Comparaison des résultats
