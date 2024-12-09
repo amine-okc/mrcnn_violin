@@ -77,6 +77,8 @@ Epoch 50/50
 mrcnn_class_loss: 0.0419 - mrcnn_bbox_loss: 0.0297 - mrcnn_mask_loss: 0.0991 - val_loss: 1.4729 - val_rpn_class_loss: 0.0121 - 
 val_rpn_bbox_loss: 0.8625 - val_mrcnn_class_loss: 0.1203 - val_mrcnn_bbox_loss: 0.2036 - val_mrcnn_mask_loss: 0.2744
 ```
+
+![Loss train 1](https://github.com/amine-okc/mrcnn_violin/blob/main/logs/violin20241109T1129/log.png)
 Le modèle a obtenu une perte totale de 0.1983 sur le jeu d'entraînement, avec des pertes relativement faibles pour chaque composant, notamment la perte liée au masque (0.0991) et à la classification (0.0419). En revanche, la perte de validation a atteint 1.4729, avec des valeurs significativement plus élevées, en particulier pour la perte de la bbox (0.8625). Cette différence notable entre les pertes d'entraînement et de validation indique un overfitting, suggérant que le modèle a bien appris les détails du jeu d'entraînement mais n'a pas réussi à généraliser efficacement aux nouvelles données. De plus, le redimensionnement des images à 128x128 pixels a peut-être contribué à cette situation, car cette taille réduite ne permet pas de capturer suffisamment de détails, ce qui limite la capacité du modèle à détecter correctement les objets
 ### Matrice de confusion
 
@@ -143,12 +145,16 @@ class ViolinConfig(Config):
 Nous avons toujours gardé le taux d'apprentissage (Learning Rate) par défaut (0.001), avec 30 epochs. Cette configuration permet d'avoir un compromis entre un entraînement suffisamment long pour que le modèle puisse s'adapter aux données et tenter d'éviter un sur-apprentissage (overfitting).
 ### Pertes
 À la fin de l'entraînement, les pertes obtenues par le modèle sont les suivantes :
+
 ```
 Epoch 30/30
 21/21 [==============================] - 1056s 50s/step - loss: 0.2210 - rpn_class_loss: 0.0030 - rpn_bbox_loss: 0.0333 -
 mrcnn_class_loss: 0.0504 - mrcnn_bbox_loss: 0.0306 - mrcnn_mask_loss: 0.1036 - val_loss: 1.4754 - val_rpn_class_loss: 0.0097 -
 val_rpn_bbox_loss: 0.8770 - val_mrcnn_class_loss: 0.0969 - val_mrcnn_bbox_loss: 0.2440 - val_mrcnn_mask_loss: 0.2478
 ```
+
+![Loss train 1](https://github.com/amine-okc/mrcnn_violin/blob/main/logs/violin20241110T0830/log.png)
+
 À l'epoch 30 de notre deuxième configuration, le modèle présente une perte d'entraînement (loss) de 0.2210. De plus, comparée à la première configuration, où à l'epoch 30 la perte de validation était de 1.6928, cette réduction indique que l'augmentation de la taille des images à 256x256 pixels et l'augmentation du nombre de ROIs (50 par image) ont permis une meilleure généralisation du modèle. Cela suggère que les détails supplémentaires capturés par les images plus grandes ont aidé à réduire l'overfitting. Cette configuration a permis de réduire le temps d'entraînement, avec un gain de temps notable.
 ### Matrice de confusion
 
@@ -216,6 +222,8 @@ Epoch 20/20
 mrcnn_class_loss: 0.0292 - mrcnn_bbox_loss: 0.0470 - mrcnn_mask_loss: 0.1051 - val_loss: 1.4293 - val_rpn_class_loss: 0.0076 - 
 val_rpn_bbox_loss: 0.8581 - val_mrcnn_class_loss: 0.0739 - val_mrcnn_bbox_loss: 0.1854 - val_mrcnn_mask_loss: 0.3043
 ```
+
+![Loss train 1](https://github.com/amine-okc/mrcnn_violin/blob/main/logs/violin20241111T0830/log.png)
 À l'epoch 20, le modèle présente une perte d'entraînement (loss) de 0.2147, ce qui montre que l'apprentissage progresse bien. Les pertes pour les différentes composantes, telles que la classification et le masque, restent raisonnables, indiquant que le modèle est en bonne voie. La perte de validation à 1.4293 est légèrement plus élevée, mais cela est normal dans les premières phases d'entraînement, surtout avec une quantité de données aussi limitée. 
 ### Matrice de confusion
 
